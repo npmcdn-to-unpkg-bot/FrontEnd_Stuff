@@ -1,12 +1,14 @@
 /* Variables
 ================================*/
 #title {
-  text-shadow: 1em 1em .5em #000;
-  color: red; }
+  text-shadow: 1em 1em 0.3em #000;
+  color: #db2b2b; }
 
 .box {
   /* height */
-  width: 20px;
-  height: 20px;
+  width: 300px;
+  height: 300px;
+  /* font */
+  color: #db2b2b;
   /* styles */
-  background-color: #000; }
+  background-color: #db2b2b; }
