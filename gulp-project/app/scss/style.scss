@@ -1,0 +1,22 @@
+/* Variables
+================================*/
+
+$red: #db2b2b;
+$black: #000;
+
+#title { 
+	text-shadow: 1em 1em .3em $black;
+	color: $red;
+}
+
+.box { 
+	/* height */
+	width: 300px;
+	height: 300px;
+
+	/* font */
+	color: $red;
+
+	/* styles */
+	background-color: $red;
+}

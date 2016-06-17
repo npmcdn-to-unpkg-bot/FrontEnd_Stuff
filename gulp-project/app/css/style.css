@@ -1,0 +1,12 @@
+/* Variables
+================================*/
+#title {
+  text-shadow: 1em 1em .5em #000;
+  color: red; }
+
+.box {
+  /* height */
+  width: 20px;
+  height: 20px;
+  /* styles */
+  background-color: #000; }
