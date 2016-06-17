@@ -1,0 +1,17 @@
+{
+  "name": "Gulp-project-test",
+  "version": "0.0.0",
+  "description": "Simple gulp testing and practice",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gulp",
+    "Project",
+    "Test",
+    "Practice"
+  ],
+  "author": "Ismael Ezequiel",
+  "license": "ISC"
+}
