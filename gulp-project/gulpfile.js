@@ -37,7 +37,7 @@ gulp.task('minify', function () {
 });
 
 // Default task
-gulp.task('build', ['sass', 'minify'], function () {
+gulp.task('default', ['sass', 'minify'], function () {
 	"use strict";
 
 	console.log("Building files");

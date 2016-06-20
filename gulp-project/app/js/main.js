@@ -1,1 +1,1 @@
-console.log('simple test');
+days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] 
