@@ -1,0 +1,21 @@
+/* font */
+@import 'https://fonts.googleapis.com/css?family=Yatra+One';
+/* colors */
+body {
+  background-image: url(../images/bg.png); }
+
+.forms {
+  width: 50%;
+  margin: 0 auto; }
+  .forms .title {
+    /* font properties */
+    font-family: 'Yatra One', cursiva;
+    letter-spacing: 5px;
+    font-size: 3em;
+    /* style */
+    color: #fff;
+    text-shadow: 2px 2px 2px gray, 4px 4px 2px #fff;
+    /* others */
+    text-align: center; }
+  .forms .form-1 {
+    background-color: #9de6f2; }
