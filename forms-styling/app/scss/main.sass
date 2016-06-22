@@ -1,5 +1,5 @@
 /* font */
-@import 'https://fonts.googleapis.com/css?family=Yatra+One';
+/* @import 'https://fonts.googleapis.com/css?family=Yatra+One'
 
 /* colors */
 $title: #fff
@@ -9,11 +9,8 @@ $blue: #9de6f2
 body
   background-image: url(../images/bg.png)
 
-.forms
-  width: 50%  
-  margin: 0 auto
-    
-  .title
+
+.title
     /* font properties */
     font-family: 'Yatra One', cursiva
     letter-spacing: 5px
@@ -26,5 +23,78 @@ body
     /* others */
     text-align: center
 
+
+.forms
+  /* styles */
+  background-color: $title;
+
+  /* position */
+  width: 50%  
+  margin: auto
+  padding: 40px 0 40px 0;
+
+  /* others */
+  border-radius: 10px;
+
+
+  .title-form
+    /* style */ 
+    color: darken($blue, 50%)
+
+    /* position */
+    margin: 0 auto 20px auto
+    text-align: center
+
+    /* others */
+    border-bottom: 5px solid lighten($blue, 15%)
+    text-shadow: 1px 1px 0 $black
+    width: 80px 
+
+
   .form-1 
+    /* styles */
     background-color: $blue
+
+    /* position */
+    width: 80%
+    margin: auto
+
+    /* others */
+    box-sizing: content-box
+    padding: 20px
+    border-radius: 5px
+    
+
+    /* styling elements */
+    input
+      border: 1px solid #bdbdbd
+      border-radius: 5px
+      margin-bottom: 10px !important
+      padding: 10px 10px 10px 30px
+      color: #5a5854
+      background-color: #f2f2f2 
+      background-position: 8px 
+      background-repeat: no-repeat 
+      display: block
+      margin: auto
+
+    label
+      text-align: center
+
+    input:focus 
+      background-color: $title 
+      border: 1px solid #b1e1e4 
+
+    input#name
+      background-image: url(../images/icon/name.png)
+
+    input#email
+      background-image: url(../images/icon/email.png)
+
+    input#twitter
+      background-image: url(../images/icon/twitter.png)
+    
+    button
+      width: 50px
+      margin: auto
+      background-color: #300d7c

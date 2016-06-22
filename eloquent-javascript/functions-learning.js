@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* global variables */
 var i, objName, obj, objLocation, anon;
@@ -34,8 +34,7 @@ function showName (firstName) {
 };
 
 var objName = showName(firstName);
-var obj = makeName(lastName);
-console.log(obj);
+console.log(objName(lastName));
 
 /*-----------------------------------------------------
 				Getters and Setters
@@ -68,3 +67,4 @@ var anon = function () {
 		console.log("From Annonymous Function:" + i);
 	}
 };
+anon();
