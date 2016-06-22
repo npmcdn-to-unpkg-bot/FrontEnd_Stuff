@@ -1,0 +1,15 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "React, Learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ismael Ezequiel",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
