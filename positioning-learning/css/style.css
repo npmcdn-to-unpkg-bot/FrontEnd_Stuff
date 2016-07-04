@@ -1,0 +1,92 @@
+body {
+    background-image: url(../images/bg.png);
+    margin: 0;
+}
+
+/*
+ * DEFAULT PROPERTIES
+ * */
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+.example {
+    /* Positioning */
+    text-align: center;
+    padding-bottom: 20px;
+
+    /* Others */
+    text-shadow: 1px 1px 2px gray; 
+    color: red;
+}
+
+.main {
+    /* Positioning */
+    position: relative;
+    width: 70%;
+    padding: 20px 0 20px 0;
+
+    /* Display & Box model */
+    margin: auto;
+    border-radius: 10px; 
+
+    /* Others */
+    background-color: white;
+}
+
+/*
+ * BOX 1 - RELATIVE EXAMPLE
+ **/
+
+.after {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.before,
+.after {
+    /* Positioning */
+    width: 90%;
+    margin: auto;
+
+    /* Others */
+    background-color: grey;
+    text-align: center;
+}
+
+.content {
+    /* Positioning */
+    position: relative;
+    top: 20px;
+    left: -20px;
+    width: 90%;
+    margin: auto;
+
+    /* Display & Box Model */
+    /* Others */
+    background-color: black;
+}
+
+.div-1 {
+    height: 40px;
+    background-color: red;
+}
+
+.div-2 {
+    height: 40px;
+    background-color: white;
+}
+
+.footer {
+    background-color: blue;
+}
