@@ -39,6 +39,7 @@ body {
     background-color: #9de6f2;
     /* position */
     width: 80%;
+    height: 170px;
     margin: auto;
     /* others */
     box-sizing: content-box;
@@ -67,7 +68,18 @@ body {
       background-image: url(../images/icon/email.png); }
     .forms .form-1 input#twitter {
       background-image: url(../images/icon/twitter.png); }
-    .forms .form-1 button {
-      width: 50px;
-      margin: auto;
-      background-color: #300d7c; }
+    .forms .form-1 #send-button {
+      width: 100px;
+      /* others */
+      background-color: #fff;
+      padding: 10px;
+      border: 1px solid #bdbdbd;
+      border-radius: 5px; }
+    .forms .form-1 #send-button {
+      font-weight: bold;
+      text-transform: uppercase; }
+    .forms .form-1 #send-button:hover {
+      border: 1px solid #b1e1e4;
+      box-shadow: 0 0 2px 2px #4cccd3; }
+    .forms .form-1 #send-button:active {
+      background-color: #b1e1e4; }
