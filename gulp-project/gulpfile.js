@@ -1,3 +1,4 @@
+'use strict';
 /*jslint node: true*/
 
 /* Imports packages
@@ -11,8 +12,6 @@ var cssnano = require('gulp-cssnano');
 
 // Sass compiler
 gulp.task('sass', function () {
-	"use strict";
-
 	return gulp.src('app/scss/**/*.scss')
 		.pipe(sass())
 		.pipe(gulp.dest('app/css/'));
@@ -20,15 +19,11 @@ gulp.task('sass', function () {
 
 // Gulp watch sass
 gulp.task('watch', function () {
-    "use strict";
-
     gulp.watch('app/scss/**/*.scss', ['sass']);
 });
 
 // Concatenete and minify js and css files 
 gulp.task('minify', function () {
-	"use strict";
-
 	return gulp.src('app/*.html')
 		.pipe(useref())
 		.pipe(gulpIf('*.js', uglify()))
@@ -38,7 +33,5 @@ gulp.task('minify', function () {
 
 // Default task
 gulp.task('default', ['sass', 'minify'], function () {
-	"use strict";
-
 	console.log("Building files");
 });
